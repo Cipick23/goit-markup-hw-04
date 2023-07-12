@@ -159,16 +159,17 @@ ul {
 /*  first section */
 
 .logo-section {
+    /* background-image: url(''); */
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
     background: #2F303A;
     width: 1600px;
     height: 600px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 .about-logo {
