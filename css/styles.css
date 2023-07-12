@@ -159,8 +159,8 @@ ul {
 /*  first section */
 
 .logo-section {
-    background: url(./), rgb(211, 211, 211),rgb(211, 211, 211);
-    background: linear-gradient();
+    /* background: url(./), rgb(211, 211, 211),rgb(211, 211, 211);
+    background: linear-gradient(); */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
