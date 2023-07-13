@@ -131,6 +131,14 @@ ul {
 }
 
 .phone-section::after {
+    content: "";
+    width: 10px;
+    height: 16px;
+    color: #757575;
+    display: inline-block;
+}
+
+.phone-section {
     color: #757575;
     height: 16px;
 }
