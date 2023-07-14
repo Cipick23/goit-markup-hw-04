@@ -55,8 +55,6 @@ ul {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* align-items: center; */
-    /* width: 400px; */
 }
 
 .web-container {
@@ -115,14 +113,32 @@ ul {
     line-height: 16px;
 }
 
+.email-link::after {
+    flex-shrink: 0;
+    display: inline-block;
+}
+
 .email-link {
+    display: flex;
     color: #2196F3;
-    line-height: 16px;
-    margin: 0px 40px 0px 0px;
+    /* line-height: 16px; */
+    /* margin: 0px 40px 0px 0px; */
+}
+
+.email {
+    display: flex;
+    width: 16px;
+    height: 11.996px;
+    flex-shrink: 0;
+    fill: #2196F3;
+}
+
+.box-icon {
+    display: flex;
+    
 }
 
 .phone-section::after {
-    content: "";
     width: 10px;
     height: 16px;
     color: #757575;
@@ -130,6 +146,7 @@ ul {
 }
 
 .phone-section {
+    display: flex;
     color: #757575;
     height: 16px;
 }
