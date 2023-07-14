@@ -19,9 +19,8 @@ ul {
 
 .container {
     background: #FFF;
-    border: #121111;
     width: 1600px;
-    height: 2348px;
+    height: 2930px;
 }
 
 /* header section */
@@ -38,11 +37,6 @@ ul {
 
 .first-container {
     display: flex;
-    border: 1px;
-    width: 1600px;
-    height: 82px;
-    width: 100%;
-    align-items: center
 }
 
 .box {
@@ -69,7 +63,8 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    padding: 32px 0px 32px 385px;
+    /* padding: 32px 225px 32px 385px; */
+    
 }
 
 .global-header .container ul {
@@ -115,32 +110,57 @@ ul {
 
 .icon-list {
     display: flex;
+    gap: 40px;
+}
+
+.contact-header {
+    display: flex;
+    flex-shrink: 0;
     gap: 10px;
 }
 
-.email-link {
-    display: flex;
-    color: #2196F3;
-    /* line-height: 16px; */
-    /* margin: 0px 40px 0px 0px; */
+.email {
+    width: 161px;
+    height: 16px;
+    flex-shrink: 0;
+    gap: 10px;
+    fill: #2196F3;
+    margin: 32px 40px 32px 330px;
 }
 
-.email {
-    display: flex;
-    width: 16px;
-    height: 11.996px;
+.phone {
+    width: 132px;
+    height: 16px;
     flex-shrink: 0;
-    fill: #2196F3;
+    gap: 10px;
+    fill: #757575;
+    margin: 32px 225px 32px 40px;
 }
 
 .box-icon {
     display: flex; 
 }
 
+.email-link {
+    color: #2196F3;
+}
+
+.email-link > svg {
+    width: 16px;
+    height: 11.996px;
+    flex-shrink: 0;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
 .phone-section {
-    display: flex;
     color: #757575;
+}
+
+.phone-section > svg {
+    width: 10px;
     height: 16px;
+    flex-shrink: 0;
 }
 
 .global-header {
@@ -152,7 +172,7 @@ ul {
     color: #af1e88;
 }
 
-.contacts > a:hover{
+.contact-header > a:hover{
     color: #af1e88;
 }
 
@@ -160,7 +180,7 @@ ul {
     color: #af1e88;
 }
 
-.contacts > a:focus{
+.contact-header > a:focus{
     color: #af1e88;
 }
 
