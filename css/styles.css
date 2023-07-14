@@ -113,9 +113,9 @@ ul {
     line-height: 16px;
 }
 
-.email-link::after {
-    flex-shrink: 0;
-    display: inline-block;
+.icon-list {
+    display: flex;
+    gap: 10px;
 }
 
 .email-link {
@@ -134,15 +134,7 @@ ul {
 }
 
 .box-icon {
-    display: flex;
-    
-}
-
-.phone-section::after {
-    width: 10px;
-    height: 16px;
-    color: #757575;
-    display: inline-block;
+    display: flex; 
 }
 
 .phone-section {
@@ -387,36 +379,37 @@ ul {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.title-image > ul {
-    display: flex;
-    align-items: center;
-}
-
-/* header section */
-
-.image-one {
-    margin: 0px 30px 0px 0px;
-}
-
-.image-two {
-    margin: 0px 30px 0px 30px;
-}
-
-.image-three {
-    margin: 0px 30px 0px 30px;
-}
-
-.image-four {
-    margin: 0px 0px 0px 30px;
-}
-
-.title-image {
     width: 1600px;
     height: 648px;
     flex-shrink: 0;
     background: #F5F4FA;
+}
+
+.box-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 270px;
+    height: 428px;
+}
+
+.icon-div {
+    display: flex;
+    margin-top: 16px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.icon-div .icon svg {
+    width: 20px;
+    height: 20px;
 }
 
 .title-image > h2 {
@@ -429,9 +422,7 @@ ul {
     letter-spacing: 1.08px;
 }
 
-
-
-.title-image > ul > li > span{
+.image > span {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -441,7 +432,7 @@ ul {
     letter-spacing: 0.48px;
 }
 
-.title-image > ul > li > em {
+.image > em {
     color: #757575;
     text-align: center;
     font-size: 16px;
