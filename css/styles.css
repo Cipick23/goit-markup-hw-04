@@ -13,6 +13,7 @@
     --flex-shrink: 0;
     --background-color: #fff;
     --social-icon-color: #AFB1B8;
+    --link-social-hover-color: #2196F3;
 }
 
 ul {
@@ -403,6 +404,11 @@ ul {
     height: 44px;
     border-radius: 22px;
     gap: 10px;
+}
+
+.icon-div:hover,
+.icon-div:focus {
+    color: var(--link-social-hover-color);
 }
 
 .title-image > h2 {
