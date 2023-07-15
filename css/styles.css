@@ -252,18 +252,19 @@ ul {
     padding: 0px 215px 0px 215px;
 }
 
-.container-one {
+.container-objectives {
     display: flex;
     margin: 0px 0px 0px 0px;
 }
 
-.container-paragraph-one {
+.container-paragraph {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 270px;
     height: 75px;
-    margin: 0px 30px 0px 0px;
+    margin-top: 10px;
+    
 }
 
 .container-objective > ul > li > section {
@@ -283,47 +284,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.container-two {
-    display: flex;
-    margin: 0px 30px 0px 0px;
-}
-
-.container-paragraph-two {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 270px;
-    margin: 0px 30px 0px 0px;
-    height: 75px;
-}
-
-.container-three {
-    display: flex;
-    margin: 0px 0px 0px 0px;
-}
-
-.container-paragraph-three {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 270px;
-    margin: 0px 30px 0px 0px;
-    height: 75px;
-}
-
-.container-four {
-    display: flex;
-    margin: 0px 0px 0px 0px;
-}
-
-.container-paragraph-four {
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 270px;
-    margin: 0px 0px 0px 0px;
-    height: 75px;
+    gap: 30px;
 }
 
 .info-section {
@@ -339,7 +300,7 @@ ul {
     line-height: 16px;   
 }
 
-.info-section > ul > li > h6 {
+.container-objectives > h6 {
     color: #212121;
     font-size: 14px;
     font-style: var(--font-style);
@@ -349,7 +310,7 @@ ul {
     text-transform: uppercase;
 }
 
-.info-section > ul > li > p {
+.details-paragraph {
     color: #757575;
     font-size: 14px;
     font-style: var(--font-style);
