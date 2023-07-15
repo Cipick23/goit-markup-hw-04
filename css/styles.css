@@ -11,6 +11,8 @@
     --font-style: 'normal';
     --font-weight: 400;
     --flex-shrink: 0;
+    --background-color: #fff;
+    --social-icon-color: #AFB1B8;
 }
 
 ul {
@@ -18,7 +20,7 @@ ul {
 }
 
 .container {
-    background: #FFF;
+    background:var(--background-color);
     width: 1600px;
     height: 2930px;
 }
@@ -144,7 +146,7 @@ ul {
 }
 
 .global-header {
-    background: #FFF;
+    background: var(--background-color);
     flex-shrink: var(--flex-shrink);
 }
 
@@ -288,7 +290,7 @@ ul {
 }
 
 .info-section {
-    background: #FFF;
+    background: var(--background-color);
     width: 1600px;
 }
 
@@ -380,18 +382,27 @@ ul {
     gap: 30px;
     width: 270px;
     height: 428px;
+    background-color: var(--background-color);
 }
 
 .icon-div {
     display: flex;
-    margin-top: 16px;
-    gap: 10px;
     justify-content: center;
+
 }
 
 .icon-div .icon svg {
     width: 20px;
     height: 20px;
+    fill:var(--social-icon-color);
+    
+}
+
+.icon-div .icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    gap: 10px;
 }
 
 .title-image > h2 {
