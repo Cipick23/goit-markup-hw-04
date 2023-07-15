@@ -61,16 +61,6 @@ ul {
     margin: 24px 93px 25px 215px;
 }
 
-.contacts-container {
-    display: flex;
-    flex-flow: row;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: 800px;
-    /* padding: 32px 225px 32px 385px; */
-}
-
 .global-header .container ul {
     display: flex;
 }
@@ -112,59 +102,45 @@ ul {
     line-height: 16px;
 }
 
+/* email phone  */
+
 .icon-list {
     display: flex;
-    gap: 40px;
 }
 
 .contact-header {
-    display: flex;
     flex-shrink: 0;
     gap: 10px;
-}
-
-.email {
-    width: 161px;
-    height: 16px;
-    flex-shrink: 0;
-    gap: 10px;
-    fill: #2196F3;
-    margin: 0px 40px 0px 330px;
-}
-
-.phone {
-    width: 132px;
-    height: 16px;
-    flex-shrink: 0;
-    gap: 10px;
-    fill: #757575;
-    margin: 32px 225px 32px 40px;
-}
-
-.box-icon {
-    display: flex; 
+    margin-top: 32px;
 }
 
 .email-link {
     color: #2196F3;
+    width: 161px;
+    height: 16px;
+    flex-shrink: 0;
+    margin: 32px 40px 32px 330px;
 }
 
 .email-link > svg {
     width: 16px;
     height: 11.996px;
     flex-shrink: 0;
-    margin-top: 34px;
-    margin-bottom: 34px;
 }
 
 .phone-section {
     color: #757575;
+    width: 132px;
+    height: 16px;
+    flex-shrink: 0;
+    fill: #757575;
+    margin: 32px 225px 32px 40px;
 }
 
 .phone-section > svg {
     width: 10px;
     height: 16px;
-    flex-shrink: 0;
+    flex-shrink: 0;   
 }
 
 .global-header {
