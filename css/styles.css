@@ -223,15 +223,33 @@ ul {
     
 /*  second section */
 
+.test {
+    gap: 30px;
+    width: 270px;
+    height: 120px;
+    margin-top: 94px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.test > svg {
+    width: 70px;
+    height: 70px;
+    margin: 25px 100px 25px 100px;
+}
+
 .icon-objectives {
-    
+    display: flex;
+    flex-direction: row;
+    margin-left: 215px;
+    gap: 30px;
 }
 
 .container-objective {
     display: flex;
     height: 101px;
     padding: 0px 215px 0px 215px;
-    margin-top: 94px;
 }
 
 .container-one {
@@ -264,7 +282,6 @@ ul {
 .container-objective > ul {
     display: flex;
     flex-direction: row;
-    
     justify-content: space-between;
 }
 
