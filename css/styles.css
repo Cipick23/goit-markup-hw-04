@@ -392,7 +392,7 @@ ul {
     background-color: var(--background-color);
 }
 
-.icon-div {
+.icon-div-cards {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -402,13 +402,13 @@ ul {
     margin-bottom: 30px;
 }
 
-.icon-div .icon svg {
+.icon-div-cards .icon-cards svg {
     width: 20px;
     height: 20px;
     margin: 12px;
 }
 
-.icon-div .icon {
+.icon-div-cards .icon-cards {
     width: 44px;
     height: 44px;
     border-radius: 22px;
@@ -418,8 +418,8 @@ ul {
     margin-bottom: 30px;
 }
 
-.icon-div .icon:hover,
-.icon-div .icon:focus {
+.icon-div-cards .icon-cards:hover,
+.icon-div-cards .icon-cards:focus {
     color: var(--link-social-hover-color);
     fill: var(--link-social-hover-color);
 }
@@ -483,7 +483,7 @@ ul {
     margin-top: 50px;
 }
 
-.icons-box .icon {
+.icons-box .icons {
     background-color: var(--background-color);
     fill:var(--social-icon-color);
 }
@@ -491,18 +491,14 @@ ul {
 .icons-box {
     border-radius: 4px;
     border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
 }
 
-.icon > svg {
+.icons > svg {
     width: 106px;
     height: 60px;
     margin: 16px 32px 16px 32px;
-    fill: var(--social-icon-color);
-}
-
-.icons-box {
-    width: 170px;
-    height: 92px;
 }
 
 /*  footer section  */
