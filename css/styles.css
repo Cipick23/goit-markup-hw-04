@@ -524,6 +524,7 @@ ul {
 }
 
 .icons-box {
+    display: flex;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
 }
@@ -628,7 +629,6 @@ ul {
     height: 72px;
     flex-shrink: 0;
     margin-left: 215px;
-    /*  */
 }
 
 .phone-footer {
