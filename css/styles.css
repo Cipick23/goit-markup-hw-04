@@ -13,9 +13,10 @@
     --flex-shrink: 0;
     --background-color: #fff;
     --social-icon-color: #AFB1B8;
-    --link-social-hover-color: #2196F3;
+    --link-social-hover-color: #fff;
     --social-icon-color-footer: #fff;
     --background-color-footer: #ffffff1a;
+    --backgrround-hover-color-footer: #2196F3;
 }
 
 ul {
@@ -160,13 +161,6 @@ ul {
 .contact-header .phone-section:hover,
 .contact-header .phone-section:focus {
     color: var(--link-social-hover-color);
-}
-
-.phone-section > svg {
-    width: 10px;
-    height: 16px;
-    flex-shrink: 0;
-    margin-right: 10px;  
 }
 
 .global-header {
@@ -413,7 +407,7 @@ ul {
     height: 44px;
     border-radius: 22px;
     margin-bottom: 30px;
-    fill:var(--social-icon-color);
+    color: var(--social-icon-color);
     background-color: var(--background-color);
     margin-bottom: 30px;
 }
@@ -459,7 +453,6 @@ ul {
 .regular-customers {
     width: 1170px;
     height: 184px;
-    flex-shrink: 0;
     margin-top: 94px;
     margin-bottom: 94px;
     margin-left: 215px;
@@ -473,19 +466,18 @@ ul {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    margin-top: 94px;
+    
 }
 
 .icon-customers > ul {
     display: flex;
     gap: 30px;
-    margin-bottom: 94px;
     margin-top: 50px;
 }
 
 .icons-box .icons {
     background-color: var(--background-color);
-    fill:var(--social-icon-color);
+    color:var(--social-icon-color);
 }
 
 .icons-box {
@@ -542,19 +534,20 @@ ul {
     height: 44px;
     border-radius: 22px;
     gap: 10px;
-    background-color: var(--background-color-footer)
+    background-color: var(--background-color-footer);
+    color: var(--social-icon-color-footer);
 }
 
 .icon-social-footer > svg {
     width: 20px;
     height: 20px;
-    fill: var(--social-icon-color-footer);
     margin: 12px;
 }
 
-.icon-find:hover,
-.icon-find:focus {
+.icon-find .icon-social-footer:hover,
+.icon-find .icon-social-footer:focus {
     color: var(--link-social-hover-color);
+    background-color: var(--backgrround-hover-color-footer);
 }
 
 .footer-address > h2 {
