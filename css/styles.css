@@ -513,8 +513,12 @@ ul {
     color: var(--social-icon-color);
 }
 
-.icons-box .icons:hover,
-.icons-box .icons:focus {
+.icons-box:hover,
+.icons-box:focus,
+.icons-box .icons:focus,
+.icons-box .icons:hover {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
     background-color: var(--background-color);
     color: var(--social-link-color-hover);
 }
