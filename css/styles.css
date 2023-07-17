@@ -414,12 +414,14 @@ ul {
     border-radius: 22px;
     margin-bottom: 30px;
     fill:var(--social-icon-color);
+    background-color: var(--background-color);
     margin-bottom: 30px;
 }
 
-.icon-div:hover,
-.icon-div:focus {
+.icon-div .icon:hover,
+.icon-div .icon:focus {
     color: var(--link-social-hover-color);
+    fill: var(--link-social-hover-color);
 }
 
 .title-image > h2 {
