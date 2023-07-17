@@ -387,6 +387,14 @@ ul {
     background-color: var(--background-color);
 }
 
+.icons-list > ul {
+    display: flex;
+    gap: 10px;
+    width: 206px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
 .icon-div-cards {
     display: flex;
     justify-content: center;
@@ -397,7 +405,7 @@ ul {
     margin-bottom: 30px;
 }
 
-.icon-div-cards .icon-cards svg {
+.icon-cards svg {
     width: 20px;
     height: 20px;
     margin: 12px;
@@ -537,7 +545,6 @@ ul {
     width: 206px;
     height: 44px;
     flex-shrink: 0;
-   
 }
 
 .icons-footer {
