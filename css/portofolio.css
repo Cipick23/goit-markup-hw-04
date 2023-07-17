@@ -99,7 +99,7 @@ ul {
 }
 
 .studio-link {
-    color: #2196F3;
+    color: #212121;
     width: 42px;
     height: 16px;
     line-height: 16px;
@@ -125,7 +125,7 @@ ul {
 .contacts-link:focus,
 .portofolio-link:focus,
 .portofolio-link:hover {
-    color: #af1e88;
+    color: #2196F3;
 }
 
 /* email phone  */

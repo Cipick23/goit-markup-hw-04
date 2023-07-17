@@ -94,7 +94,7 @@ ul {
 }
 
 .studio-link {
-    color: #2196F3;
+    color: #212121;
     width: 42px;
     height: 16px;
     line-height: 16px;
@@ -126,8 +126,8 @@ ul {
     height: 4px;
     flex-shrink: 0;
     border-radius: 2px;
-    background: #2196F3;  */
-    color: #af1e88;
+    background: #2196F3; */
+    color: #2196F3;
 }
 
 /* email phone  */
