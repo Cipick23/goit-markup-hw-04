@@ -121,6 +121,12 @@ ul {
 .contacts-link:focus,
 .portofolio-link:focus,
 .portofolio-link:hover {
+    /* margin-top: 44px;
+    width: 42px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #2196F3;  */
     color: #af1e88;
 }
 
