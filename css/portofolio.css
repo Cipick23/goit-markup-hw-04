@@ -258,65 +258,48 @@ ul {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.main-section > section > ul > li > a{
-    cursor: pointer;
-}
-
-.botton-white{
-}
-
-.all-button{
-    text-align: center;
-    font-size: 16px;
-    font-style: var(--font-style);
-    font-weight: var(--font-weight);
-    line-height: 1.6;
-    letter-spacing: 0.48px;
-    color: #ffffff;
-    width: 64px;
-    height: 38px;
-    flex-shrink: var(--flex-shrink);
-    border-radius: 4px;
-    background: #2196F3;
-}
-
-.all-button:hover,
-.all-button:focus,
 .app-button:hover,
 .app-button:focus {
+    color: #ffffff;
+    background: #2196F3;
     cursor: pointer;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.web-button{
+.app-button{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    flex-shrink: var(--flex-shrink);
+}
+
+.all-button {
+    width: 64px;
+    height: 38px;
+}
+
+.web-button {
     width: 120px;
     height: 38px;
-    flex-shrink: var(--flex-shrink);
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-style: var(--font-style);
-    font-weight: var(--font-weight);
-    line-height: 1.6;
-    letter-spacing: 0.48px;
 }
 
-.app-button{
+.apps-botton {
     width: 83px;
     height: 38px;
-    flex-shrink: var(--flex-shrink);
 }
 
-.design-button{
+.design-button {
     width: 96px;
     height: 38px;
-    flex-shrink: var(--flex-shrink);
 }
 
-.marketing-button{
+.marketing-button {
     width: 121px;
     height: 38px;
-    flex-shrink: var(--flex-shrink);
 }
 
 .name-section{
