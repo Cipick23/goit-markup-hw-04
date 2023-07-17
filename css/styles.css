@@ -17,6 +17,8 @@
     --social-icon-color-footer: #fff;
     --background-color-footer: #ffffff1a;
     --backgrround-hover-color-footer: #2196F3;
+    --social-link-color-hover: #2196F3;
+    --icon-color-header: #757575;
 }
 
 ul {
@@ -120,8 +122,8 @@ ul {
 }
 
 .contact-header .email-link {
-    color: #757575;
-    stroke: var(--social-icon-color);
+    fill: var(--social-icon-color);
+    color: var(--icon-color-header);
     background-color: var(--background-color);
     width: 161px;
     height: 16px;
@@ -144,8 +146,8 @@ ul {
 }
 
 .contact-header .phone-section {
-    color: #757575;
     fill: var(--social-icon-color);
+    color: var(--icon-color-header);
     background-color: var(--background-color);
     width: 132px;
     height: 16px;
@@ -155,12 +157,12 @@ ul {
 
 .contact-header .email-link:hover,
 .contact-header .email-link:focus {
-    color: var(--link-social-hover-color);
+    color: var(--backgrround-hover-color-footer);
 }
 
 .contact-header .phone-section:hover,
 .contact-header .phone-section:focus {
-    color: var(--link-social-hover-color);
+    color: var(--backgrround-hover-color-footer);
 }
 
 .global-header {
@@ -375,7 +377,6 @@ ul {
     display: flex;
     align-items: center;
     gap: 30px;
-    
 }
 
 .image {
@@ -478,6 +479,12 @@ ul {
 .icons-box .icons {
     background-color: var(--background-color);
     color:var(--social-icon-color);
+}
+
+.icons-box:hover,
+.icons-box:focus {
+    background-color: var(--background-color-footer);
+    color: var(--social-link-color-hover);
 }
 
 .icons-box {
