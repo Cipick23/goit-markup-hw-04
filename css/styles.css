@@ -99,7 +99,7 @@ ul {
 }
 
 .studio-link {
-    color: #212121;
+    color: #2196F3;
     width: 42px;
     /* height: 16px; */
     flex-shrink: 0;
@@ -125,20 +125,40 @@ ul {
     height: 4px;
     flex-shrink: 0;
     border-radius: 2px;
-    fill: #fff;
     margin-top: 28px;
+    fill: #2196F3;
+    opacity: 1;
 }
 
 .content-section .studio-link:hover,
+.content-section .studio-link:focus {
+    color: #212121;
+    background-color: #fff;
+    /*
+    .content-section .contacts-link:hover,
+    .content-section .contacts-link:focus,
+    .content-section .portofolio-link:focus,
+    .content-section .portofolio-link:hover
+
 .content-section .studio-link:hover,
-.content-section .contacts-link:hover,
-.content-section .contacts-link:focus,
-.content-section .portofolio-link:focus,
-.content-section .portofolio-link:hover {
+.content-section .studio-link:focus {
+    fill: #2196F3;
     color: #2196F3;
-    background-image: url(/images/icons.svg#icon-hover); 
+    background-color: #fff;
+
+.content-section .studio-link:hover::before {
+    opacity: 0;
+    color: #2196F3;
     fill: #2196F3;
     background-color: #fff;
+}
+
+    width: 42px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    margin-top: 28px;
+    background-image: url(/images/icons.svg#icon-hover);  */
 }
 
 /* email phone  */
