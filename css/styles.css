@@ -233,7 +233,7 @@ ul {
     justify-content: center;
     align-items: center;
     background: #2f303a66,  lightgray 0px -147.517px / 100% 170.667% no-repeat;
-    background-image: url('/images/meating-team-img.jpg');
+    background-image: url('./images/meating-team-img.jpg');
     width: 1600px;
     height: 600px;
 }
