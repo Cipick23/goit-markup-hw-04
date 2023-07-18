@@ -101,7 +101,8 @@ ul {
 .studio-link {
     color: #212121;
     width: 42px;
-    height: 16px;
+    /* height: 16px; */
+    flex-shrink: 0;
     line-height: 16px;
     margin: 0px 50px 0px 0px;
 }
@@ -119,6 +120,14 @@ ul {
     line-height: 16px;
 }
 
+.studio-link > svg {
+    width: 42px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    fill: #fff;
+    margin-top: 28px;
+}
 
 .studio-link:hover,
 .studio-link:hover,
@@ -126,13 +135,10 @@ ul {
 .contacts-link:focus,
 .portofolio-link:focus,
 .portofolio-link:hover {
-    /* margin-top: 44px;
-    width: 42px;
-    height: 4px;
-    flex-shrink: 0;
-    border-radius: 2px;
-    background: #2196F3; */
     color: #2196F3;
+    background-image: url(/images/icons.svg#icon-hover); 
+    fill: #2196F3;
+    background-color: #fff;
 }
 
 /* email phone  */
