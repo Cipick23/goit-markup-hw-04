@@ -132,8 +132,9 @@ ul {
 
 .content-section .studio-link:hover,
 .content-section .studio-link:focus {
-    color: #212121;
+    fill: #2196F3;
     background-color: #fff;
+    visibility: hidden;
     /*
 .content-section .studio-link:hover,
 .content-section .studio-link:focus {
