@@ -16,7 +16,7 @@
     --link-social-hover-color: #fff;
     --social-icon-color-footer: #fff;
     --background-color-footer: #ffffff1a;
-    --backgrround-hover-color-footer: #2196F3;
+    --background-hover-color-footer: #2196F3;
     --social-link-color-hover: #2196F3;
     --icon-color-header: #757575;
 }
@@ -129,12 +129,12 @@ ul {
     margin-top: 28px;
 }
 
-.studio-link:hover,
-.studio-link:hover,
-.contacts-link:hover,
-.contacts-link:focus,
-.portofolio-link:focus,
-.portofolio-link:hover {
+.content-section .studio-link:hover,
+.content-section .studio-link:hover,
+.content-section .contacts-link:hover,
+.content-section .contacts-link:focus,
+.content-section .portofolio-link:focus,
+.content-section .portofolio-link:hover {
     color: #2196F3;
     background-image: url(/images/icons.svg#icon-hover); 
     fill: #2196F3;
@@ -188,12 +188,12 @@ ul {
 
 .contact-header .email-link:hover,
 .contact-header .email-link:focus {
-    color: var(--backgrround-hover-color-footer);
+    color: var(--background-hover-color-footer);
 }
 
 .contact-header .phone-section:hover,
 .contact-header .phone-section:focus {
-    color: var(--backgrround-hover-color-footer);
+    color: var(--background-hover-color-footer);
 }
 
 .global-header {
@@ -468,7 +468,7 @@ ul {
 
 .icon-div-cards .icon-cards:hover,
 .icon-div-cards .icon-cards:focus {
-    background-color: var(--backgrround-hover-color-footer);
+    background-color: var(--background-hover-color-footer);
     color: var(--social-icon-color-footer);
 }
 
@@ -622,7 +622,7 @@ ul {
 
 .icons-footer .icon-social-footer:hover,
 .icons-footer .icon-social-footer:focus {
-    background-color: var(--backgrround-hover-color-footer);
+    background-color: var(--background-hover-color-footer);
     color: var(--link-social-hover-color);
 }
 
@@ -699,5 +699,5 @@ ul {
 .phone-footer:hover,
 .email-footer:focus,
 .phone-footer:focus{
-    color: var(--backgrround-hover-color-footer);
+    color: var(--background-hover-color-footer);
 }
