@@ -215,15 +215,13 @@ ul {
     align-items: center;
     width: 1600px;
     height: 600px;
-    background: #C4C4C4;
 }
 
 .team-image {
-    background: rgba(47, 48, 58, 0.40);
-    background-image: url("/images/team-meating-img.jpg");
-    background-size: 1600px 600px;
+    /* background-color: #C4C4C4; */
+    background: url("/images/team-meating-img.jpg"), lightgray 0px -147.517px / 100% 170.667% no-repeat;
+    background-size: 1572px 600px;
     margin-left: 28px;
-    z-index: 4;
 }
 
 .about-logo {
@@ -250,10 +248,10 @@ ul {
     padding: 10px 19px 10px 20px;
     display: flex;
     flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
     width: 161px;
     height: 30px;
     flex-shrink: 0;
