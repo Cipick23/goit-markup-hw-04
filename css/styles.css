@@ -31,7 +31,7 @@ ul {
 }
 
 .container {
-    background:var(--background-color);
+    background: var(--background-color);
     width: 1600px;
     height: 2930px;
     background: #FFF;
@@ -213,11 +213,16 @@ ul {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background: #C4C4C4;
-    background-size: 1572px 600px;
-    background-image: url('./images/meating-team-img.jpg');
     width: 1600px;
     height: 600px;
+    /* background: #C4C4C4; */
+}
+
+.team-image {
+    background: #2F303A;
+    background-image: url('/images/team-meating-img.jpg');
+    background-size: 1572px 600px;
+    margin-left: 28px;
 }
 
 .about-logo {
