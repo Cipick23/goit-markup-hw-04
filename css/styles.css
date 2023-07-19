@@ -220,7 +220,7 @@ ul {
 
 .team-image {
     background: #2F303A;
-    background-image: url("/images/team-meating-img.jpg");
+    background-image: url("./images/team-meating-img.jpg");
     background-size: 1572px 600px;
     margin-left: 28px;
 }
