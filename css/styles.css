@@ -215,13 +215,13 @@ ul {
     align-items: center;
     width: 1600px;
     height: 600px;
-    /* background: #C4C4C4; */
+    background: #C4C4C4;
 }
 
 .team-image {
     background: #2F303A;
     background-image: url(/images/team-meating-img.jpg);
-    background-size: 1572px 600px;
+    background-size: 1600px 600px;
     margin-left: 28px;
 }
 
