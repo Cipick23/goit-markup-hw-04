@@ -219,10 +219,11 @@ ul {
 }
 
 .team-image {
-    background: #2F303A;
+    background: rgba(47, 48, 58, 0.40);
     background-image: url("/images/team-meating-img.jpg");
     background-size: 1600px 600px;
     margin-left: 28px;
+    z-index: 3;
 }
 
 .about-logo {
